@@ -26,7 +26,6 @@ import static de.seuhd.campuscoffee.api.util.ControllerUtils.getLocation;
 @Slf4j
 @RequiredArgsConstructor
 public class UserController {
-    //TODO: Implement user controller
     private final UserService userService;
     private final UserDtoMapper userDtoMapper;
 

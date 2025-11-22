@@ -1,20 +1,13 @@
 package de.seuhd.campuscoffee.tests.system;
 
-import de.seuhd.campuscoffee.api.dtos.UserDto;
 import de.seuhd.campuscoffee.domain.model.User;
 import de.seuhd.campuscoffee.domain.tests.TestFixtures;
 import org.junit.jupiter.api.Test;
 import java.util.List;
-import java.util.Objects;
-
-import org.springframework.http.HttpStatus;
 
 import static de.seuhd.campuscoffee.tests.SystemTestUtils.Requests.userRequests;
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class UsersSystemTests extends AbstractSysTest {
-
-    //TODO: Uncomment once user endpoint is implemented
 
     @Test
     void createUser() {
@@ -24,7 +17,6 @@ public class UsersSystemTests extends AbstractSysTest {
         assertEqualsIgnoringIdAndTimestamps(createdUser, userToCreate);
     }
 
-    //TODO: Add at least two additional tests for user operations
     @Test
     void getAllCreatedUsers() {
         List<User> createdUserList = TestFixtures.createUsers(userService);

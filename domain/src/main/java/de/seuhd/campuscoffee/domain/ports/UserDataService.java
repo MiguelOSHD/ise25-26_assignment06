@@ -15,8 +15,6 @@ import java.util.List;
  */
 public interface UserDataService {
 
-    //TODO: Uncomment after user domain object is defined and add imports
-
     /**
      * Clears all user data from the data store.
      * This is typically used for testing or administrative purposes.

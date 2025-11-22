@@ -8,7 +8,7 @@ import org.jspecify.annotations.NonNull;
 import java.util.List;
 
 public interface UserService {
-    //TODO: Define user service interface
+
     /**
      * Clears all user data.
      * This operation removes all users from the system.

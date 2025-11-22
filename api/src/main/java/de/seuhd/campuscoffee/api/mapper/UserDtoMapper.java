@@ -16,7 +16,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 @Mapper(componentModel = "spring")
 @ConditionalOnMissingBean // prevent IntelliJ warning about duplicate beans
 public interface UserDtoMapper {
-    //TODO: Implement user DTO mapper
     UserDto fromDomain(User source);
     User toDomain(UserDto source);
 }

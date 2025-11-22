@@ -24,8 +24,6 @@ import java.util.List;
 @RequiredArgsConstructor
 class UserDataServiceImpl implements UserDataService {
 
-    //TODO: Uncomment after user domain object is defined and add imports
-
     private final UserRepository userRepository;
     private final UserEntityMapper userEntityMapper;
 

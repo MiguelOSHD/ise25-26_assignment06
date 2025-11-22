@@ -15,8 +15,6 @@ import java.util.stream.Collectors;
 public class TestFixtures {
     private static final LocalDateTime DATE_TIME = LocalDateTime.of(2025, 10, 29, 12, 0, 0);
 
-    //TODO: Uncomment user-related test fixtures after implementing the user domain object and user service, add imports
-
     private static final List<User> USER_LIST = List.of(
             User.builder()
                     .id(1L).createdAt(DATE_TIME).updatedAt(DATE_TIME)

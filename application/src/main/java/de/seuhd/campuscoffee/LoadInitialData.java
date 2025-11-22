@@ -26,7 +26,6 @@ class LoadInitialData implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() {
-        //TODO: Uncomment after user domain object service are implemented
         log.info("Deleting existing data...");
         posService.clear();
         userService.clear();
